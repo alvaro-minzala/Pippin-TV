@@ -14,7 +14,7 @@
 		3857E1B026BAF14E001E2750 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3857E1AF26BAF14E001E2750 /* Assets.xcassets */; };
 		3857E1BB26BAF14F001E2750 /* Pippin_TVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3857E1BA26BAF14F001E2750 /* Pippin_TVTests.swift */; };
 		3857E1C626BAF14F001E2750 /* Pippin_TVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3857E1C526BAF14F001E2750 /* Pippin_TVUITests.swift */; };
-		38BCAEF626BAFD2E00B2F4B2 /* LICENSE.md in Sources */ = {isa = PBXBuildFile; fileRef = 38BCAEF526BAFD2E00B2F4B2 /* LICENSE.md */; };
+		38BCAEF626BAFD2E00B2F4B2 /* AUTHORIZATIONS.md in Sources */ = {isa = PBXBuildFile; fileRef = 38BCAEF526BAFD2E00B2F4B2 /* AUTHORIZATIONS.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,7 @@
 		3857E1C126BAF14F001E2750 /* Pippin TVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pippin TVUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3857E1C526BAF14F001E2750 /* Pippin_TVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pippin_TVUITests.swift; sourceTree = "<group>"; };
 		3857E1C726BAF14F001E2750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		38BCAEF526BAFD2E00B2F4B2 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = LICENSE.md; path = ../../LICENSE.md; sourceTree = "<group>"; };
+		38BCAEF526BAFD2E00B2F4B2 /* AUTHORIZATIONS.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = AUTHORIZATIONS.md; path = ../../AUTHORIZATIONS.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +105,7 @@
 				3857E1AC26BAF14E001E2750 /* Main.storyboard */,
 				3857E1AF26BAF14E001E2750 /* Assets.xcassets */,
 				3857E1B126BAF14E001E2750 /* Info.plist */,
-				38BCAEF526BAFD2E00B2F4B2 /* LICENSE.md */,
+				38BCAEF526BAFD2E00B2F4B2 /* AUTHORIZATIONS.md */,
 			);
 			path = "Pippin TV";
 			sourceTree = "<group>";
@@ -263,7 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38BCAEF626BAFD2E00B2F4B2 /* LICENSE.md in Sources */,
+				38BCAEF626BAFD2E00B2F4B2 /* AUTHORIZATIONS.md in Sources */,
 				3857E1AB26BAF14E001E2750 /* SecondViewController.swift in Sources */,
 				3857E1A726BAF14E001E2750 /* AppDelegate.swift in Sources */,
 				3857E1A926BAF14E001E2750 /* FirstViewController.swift in Sources */,
