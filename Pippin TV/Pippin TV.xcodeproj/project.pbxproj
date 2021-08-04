@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3857E1A726BAF14E001E2750 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3857E1A626BAF14E001E2750 /* AppDelegate.swift */; };
+		3857E1A926BAF14E001E2750 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3857E1A826BAF14E001E2750 /* FirstViewController.swift */; };
+		3857E1AB26BAF14E001E2750 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3857E1AA26BAF14E001E2750 /* SecondViewController.swift */; };
+		3857E1AE26BAF14E001E2750 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3857E1AC26BAF14E001E2750 /* Main.storyboard */; };
+		3857E1B026BAF14E001E2750 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3857E1AF26BAF14E001E2750 /* Assets.xcassets */; };
+		3857E1BB26BAF14F001E2750 /* Pippin_TVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3857E1BA26BAF14F001E2750 /* Pippin_TVTests.swift */; };
+		3857E1C626BAF14F001E2750 /* Pippin_TVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3857E1C526BAF14F001E2750 /* Pippin_TVUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3857E1B726BAF14F001E2750 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3857E19B26BAF14D001E2750 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3857E1A226BAF14D001E2750;
+			remoteInfo = "Pippin TV";
+		};
+		3857E1C226BAF14F001E2750 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3857E19B26BAF14D001E2750 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3857E1A226BAF14D001E2750;
+			remoteInfo = "Pippin TV";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3857E1A326BAF14E001E2750 /* Pippin TV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pippin TV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3857E1A626BAF14E001E2750 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3857E1A826BAF14E001E2750 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		3857E1AA26BAF14E001E2750 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		3857E1AD26BAF14E001E2750 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3857E1AF26BAF14E001E2750 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3857E1B126BAF14E001E2750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3857E1B626BAF14F001E2750 /* Pippin TVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pippin TVTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3857E1BA26BAF14F001E2750 /* Pippin_TVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pippin_TVTests.swift; sourceTree = "<group>"; };
+		3857E1BC26BAF14F001E2750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3857E1C126BAF14F001E2750 /* Pippin TVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pippin TVUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3857E1C526BAF14F001E2750 /* Pippin_TVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pippin_TVUITests.swift; sourceTree = "<group>"; };
+		3857E1C726BAF14F001E2750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3857E1A026BAF14D001E2750 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3857E1B326BAF14F001E2750 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3857E1BE26BAF14F001E2750 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3857E19A26BAF14D001E2750 = {
+			isa = PBXGroup;
+			children = (
+				3857E1A526BAF14E001E2750 /* Pippin TV */,
+				3857E1B926BAF14F001E2750 /* Pippin TVTests */,
+				3857E1C426BAF14F001E2750 /* Pippin TVUITests */,
+				3857E1A426BAF14E001E2750 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3857E1A426BAF14E001E2750 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3857E1A326BAF14E001E2750 /* Pippin TV.app */,
+				3857E1B626BAF14F001E2750 /* Pippin TVTests.xctest */,
+				3857E1C126BAF14F001E2750 /* Pippin TVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3857E1A526BAF14E001E2750 /* Pippin TV */ = {
+			isa = PBXGroup;
+			children = (
+				3857E1A626BAF14E001E2750 /* AppDelegate.swift */,
+				3857E1A826BAF14E001E2750 /* FirstViewController.swift */,
+				3857E1AA26BAF14E001E2750 /* SecondViewController.swift */,
+				3857E1AC26BAF14E001E2750 /* Main.storyboard */,
+				3857E1AF26BAF14E001E2750 /* Assets.xcassets */,
+				3857E1B126BAF14E001E2750 /* Info.plist */,
+			);
+			path = "Pippin TV";
+			sourceTree = "<group>";
+		};
+		3857E1B926BAF14F001E2750 /* Pippin TVTests */ = {
+			isa = PBXGroup;
+			children = (
+				3857E1BA26BAF14F001E2750 /* Pippin_TVTests.swift */,
+				3857E1BC26BAF14F001E2750 /* Info.plist */,
+			);
+			path = "Pippin TVTests";
+			sourceTree = "<group>";
+		};
+		3857E1C426BAF14F001E2750 /* Pippin TVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3857E1C526BAF14F001E2750 /* Pippin_TVUITests.swift */,
+				3857E1C726BAF14F001E2750 /* Info.plist */,
+			);
+			path = "Pippin TVUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3857E1A226BAF14D001E2750 /* Pippin TV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3857E1CA26BAF14F001E2750 /* Build configuration list for PBXNativeTarget "Pippin TV" */;
+			buildPhases = (
+				3857E19F26BAF14D001E2750 /* Sources */,
+				3857E1A026BAF14D001E2750 /* Frameworks */,
+				3857E1A126BAF14D001E2750 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pippin TV";
+			productName = "Pippin TV";
+			productReference = 3857E1A326BAF14E001E2750 /* Pippin TV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3857E1B526BAF14F001E2750 /* Pippin TVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3857E1CD26BAF14F001E2750 /* Build configuration list for PBXNativeTarget "Pippin TVTests" */;
+			buildPhases = (
+				3857E1B226BAF14F001E2750 /* Sources */,
+				3857E1B326BAF14F001E2750 /* Frameworks */,
+				3857E1B426BAF14F001E2750 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3857E1B826BAF14F001E2750 /* PBXTargetDependency */,
+			);
+			name = "Pippin TVTests";
+			productName = "Pippin TVTests";
+			productReference = 3857E1B626BAF14F001E2750 /* Pippin TVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3857E1C026BAF14F001E2750 /* Pippin TVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3857E1D026BAF14F001E2750 /* Build configuration list for PBXNativeTarget "Pippin TVUITests" */;
+			buildPhases = (
+				3857E1BD26BAF14F001E2750 /* Sources */,
+				3857E1BE26BAF14F001E2750 /* Frameworks */,
+				3857E1BF26BAF14F001E2750 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3857E1C326BAF14F001E2750 /* PBXTargetDependency */,
+			);
+			name = "Pippin TVUITests";
+			productName = "Pippin TVUITests";
+			productReference = 3857E1C126BAF14F001E2750 /* Pippin TVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3857E19B26BAF14D001E2750 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "alvaro-minzala";
+				TargetAttributes = {
+					3857E1A226BAF14D001E2750 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					3857E1B526BAF14F001E2750 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = MXXAR535S4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3857E1A226BAF14D001E2750;
+					};
+					3857E1C026BAF14F001E2750 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = MXXAR535S4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3857E1A226BAF14D001E2750;
+					};
+				};
+			};
+			buildConfigurationList = 3857E19E26BAF14D001E2750 /* Build configuration list for PBXProject "Pippin TV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3857E19A26BAF14D001E2750;
+			productRefGroup = 3857E1A426BAF14E001E2750 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3857E1A226BAF14D001E2750 /* Pippin TV */,
+				3857E1B526BAF14F001E2750 /* Pippin TVTests */,
+				3857E1C026BAF14F001E2750 /* Pippin TVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3857E1A126BAF14D001E2750 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3857E1B026BAF14E001E2750 /* Assets.xcassets in Resources */,
+				3857E1AE26BAF14E001E2750 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3857E1B426BAF14F001E2750 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3857E1BF26BAF14F001E2750 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3857E19F26BAF14D001E2750 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3857E1AB26BAF14E001E2750 /* SecondViewController.swift in Sources */,
+				3857E1A726BAF14E001E2750 /* AppDelegate.swift in Sources */,
+				3857E1A926BAF14E001E2750 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3857E1B226BAF14F001E2750 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3857E1BB26BAF14F001E2750 /* Pippin_TVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3857E1BD26BAF14F001E2750 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3857E1C626BAF14F001E2750 /* Pippin_TVUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3857E1B826BAF14F001E2750 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3857E1A226BAF14D001E2750 /* Pippin TV */;
+			targetProxy = 3857E1B726BAF14F001E2750 /* PBXContainerItemProxy */;
+		};
+		3857E1C326BAF14F001E2750 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3857E1A226BAF14D001E2750 /* Pippin TV */;
+			targetProxy = 3857E1C226BAF14F001E2750 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3857E1AC26BAF14E001E2750 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3857E1AD26BAF14E001E2750 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3857E1C826BAF14F001E2750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		3857E1C926BAF14F001E2750 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3857E1CB26BAF14F001E2750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Pippin TV/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.alvarominzala.Pippin-TV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3857E1CC26BAF14F001E2750 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Pippin TV/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.alvarominzala.Pippin-TV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3857E1CE26BAF14F001E2750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MXXAR535S4;
+				INFOPLIST_FILE = "Pippin TVTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.alvarominzala.Pippin-TVTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pippin TV.app/Pippin TV";
+			};
+			name = Debug;
+		};
+		3857E1CF26BAF14F001E2750 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MXXAR535S4;
+				INFOPLIST_FILE = "Pippin TVTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.alvarominzala.Pippin-TVTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pippin TV.app/Pippin TV";
+			};
+			name = Release;
+		};
+		3857E1D126BAF14F001E2750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = MXXAR535S4;
+				INFOPLIST_FILE = "Pippin TVUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.alvarominzala.Pippin-TVUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Pippin TV";
+			};
+			name = Debug;
+		};
+		3857E1D226BAF14F001E2750 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = MXXAR535S4;
+				INFOPLIST_FILE = "Pippin TVUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.alvarominzala.Pippin-TVUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Pippin TV";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3857E19E26BAF14D001E2750 /* Build configuration list for PBXProject "Pippin TV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3857E1C826BAF14F001E2750 /* Debug */,
+				3857E1C926BAF14F001E2750 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3857E1CA26BAF14F001E2750 /* Build configuration list for PBXNativeTarget "Pippin TV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3857E1CB26BAF14F001E2750 /* Debug */,
+				3857E1CC26BAF14F001E2750 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3857E1CD26BAF14F001E2750 /* Build configuration list for PBXNativeTarget "Pippin TVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3857E1CE26BAF14F001E2750 /* Debug */,
+				3857E1CF26BAF14F001E2750 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3857E1D026BAF14F001E2750 /* Build configuration list for PBXNativeTarget "Pippin TVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3857E1D126BAF14F001E2750 /* Debug */,
+				3857E1D226BAF14F001E2750 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3857E19B26BAF14D001E2750 /* Project object */;
+}
